@@ -1,0 +1,7 @@
+{
+  "name": "newspaper",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
