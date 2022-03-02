@@ -55,7 +55,7 @@ const self = {
     api.articles.list.bind(api.articles),
     {
       condition: () => {
-        // stupid way for universal SSR
+        // stupid way for universal SSR (todo: move check in useEffect)
         const win = window as any;
         const ok = !win.SSR;
         win.SSR = undefined;
